@@ -1,10 +1,5 @@
 require 'sinatra'
 
-get '/' do
-	word = "silly"
-  'hello!'
-end
-
-get '/secret' do
-	'This is secret page'
+get '/cat' do
+	"<div><img src ='http://bit.ly/1eze8aE'></div>"
 end
