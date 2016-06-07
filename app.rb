@@ -5,8 +5,13 @@ get '/random-heisenberg' do
 	erb(:index)
 end
 
-get '/named-heisenberg' do
+get '/input-form' do
+	erb :input_form
+end
+
+post '/named-heisenberg' do
 	p params
 	@name = params[:name]
-	erb(:index)
+	erb :index
 end
+
