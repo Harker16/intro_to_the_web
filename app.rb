@@ -1,5 +1,10 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World"
+	word = "silly"
+  'hello!'
+end
+
+get '/secret' do
+	'This is secret page'
 end
